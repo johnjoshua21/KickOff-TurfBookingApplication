@@ -424,80 +424,13 @@ Authorization: Bearer <token>
 
 ---
 
-## 🧪 Testing
-
-### Backend Testing
-```bash
-cd KickOff-Backend
-mvn test
-```
-
-### Frontend Testing
-```bash
-cd Kickoff-Frontend
-npm run test
-```
-
-### Manual Testing with Postman
-Use the API documentation above to test endpoints manually.
-
----
-
-## 🐛 Known Issues
-
-1. **File Upload Size**: Currently limited to 10MB per image
-2. **Image Storage**: Uses local file system (not suitable for production)
-3. **Date Restrictions**: Cannot book for past dates (working as intended)
-4. **Concurrent Bookings**: Race conditions possible with simultaneous bookings
-
----
-
-## 📈 Future Enhancements
-
-- [ ] Payment Integration (Razorpay/Stripe)
-- [ ] Email/SMS Notifications
-- [ ] Review & Rating System
-- [ ] Advanced Analytics Dashboard
-- [ ] Mobile App (React Native)
-- [ ] Real-time Chat Support
-- [ ] Booking Reminders
-- [ ] Loyalty Points System
-- [ ] Social Media Integration
-- [ ] Multi-language Support
-
----
-
-## 🤝 Contributing
-
-This is a learning project, but suggestions and improvements are welcome! Feel free to:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is open source and available for educational purposes.
-
 ## 👨‍💻 Author
 
 **John Joshua**
 - GitHub: [@johnjoshua21](https://github.com/johnjoshua21)
 - Student Project - Learning Full Stack Development
 
-## 🙏 Acknowledgments
 
-- Spring Boot Team for the excellent framework
-- React Team for the amazing library
-- Tailwind CSS for beautiful utility classes
-- Lucide Icons for the icon set
-- Online tutorials and documentation that helped in learning
-
-## 📞 Support
-
-For questions or suggestions, feel free to open an issue in the repository.
 
 ---
 
